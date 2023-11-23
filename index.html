@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <!-- 폰트 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" media="(min-width: 841px)" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/kwangju_main.css">
+</head>
+<body>
+    <nav class="w100 navi">
+            <div class="menu-trigger" href="#">
+                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 426.74 341.5"><title>menu-black</title>
+                    <path class="bar"d="M220.77,93q-95.24,0-190.49,0c-13.43,0-22.8-9.29-22.48-22a20.73,20.73,0,0,1,17-20,47.48,47.48,0,0,1,8.44-.62q187.74,0,375.48,0A38.33,38.33,0,0,1,420,51.68c9.78,3.09,15.32,12.66,14,23.19-1.19,9.43-9.5,17.24-19.27,18-1.82.14-3.66.08-5.5.08Z" transform="translate(-7.64 -50.25)"/>
+                    <path class="bar" d="M221,349q95.51,0,191,0c15.84,0,26.36,14.4,21,28.64-3.19,8.44-9.59,12.95-18.48,13.94a50.19,50.19,0,0,1-5.49.14q-188,0-376-.13a34.7,34.7,0,0,1-15.23-3.49C9.48,383.86,6,373.86,8.37,364.88A21.5,21.5,0,0,1,27.5,349.06c1.83-.12,3.67-.06,5.5-.06Z" transform="translate(-7.64 -50.25)"/>
+                    <path class="bar" d="M220.49,242.25q-94,0-188-.05a35.55,35.55,0,0,1-10.81-1.32C12,237.67,6.53,228,8,217.49c1.32-9.5,9.67-17.06,19.53-17.65,1.83-.11,3.67-.09,5.5-.09q188,0,376,.05a37.16,37.16,0,0,1,11.31,1.32C430,204.31,435.48,214,434,224.49a21.06,21.06,0,0,1-19.54,17.66c-2.16.13-4.33.1-6.5.1Z" transform="translate(-7.64 -50.25)"/>
+                </svg>
+            </div>
+        </div>
+            <div class="w1280 flex gnb_wrap">
+                <div>
+                    <h1 class="logo">KGJU</h1>
+                    <div class="menu-trigger_black"></div>
+                </div>
+                <div>
+                    <ul class="gnb flex">
+                        <li class="gnb_cont">KWANGJU CC</li>
+                        <li class="gnb_cont">RESERVATION</li>
+                        <li class="gnb_cont">COURSE</li>
+                        <li class="gnb_cont">FACILITY</li>
+                        <li class="gnb_cont">SERVICE</li>
+                        <li class="gnb_cont">CONTACT</li>
+                    </ul>
+                </div>
+                <div class="flex">
+                    <div class="my icon"></div>
+                    <div class="my_black icon"></div>
+                    <div class="scadule icon"></div>
+                    <div class="day_black icon"></div>
+                </div>
+            </div>           
+            <div class="w100 lnb_wrap flex">
+                <div class="flex">
+                    <div class="lnb_cc lnb">
+                        <ul> 
+                            <li>클럽소개</li>
+                            <li>공지사항</li>
+                            <li>오시는 길</li>
+                        </ul>
+                    </div>
+                    <div class="lnb_reserv lnb">
+                        <ul>
+                            <li>예약하기</li>
+                            <li>예약하기 및 취소</li>
+                            <li>예약안내 및 예약규정</li>
+                            <li>모바일 예약안내</li>
+                        </ul>
+                    </div>
+                    <div class="lnb_course lnb">
+                        <ul>
+                            <li>코스소개</li>
+                            <li>코스공략</li>
+                            <li>코스갤러리</li>
+                        </ul>
+                    </div>
+                    <div class="lnb_fac lnb">
+                        <ul>
+                            <li>레스토랑</li>
+                            <li>연회장</li>
+                            <li>프로샵</li>
+                            <li>그늘집</li>
+                            <li>락커</li>
+                        </ul>
+                    </div>
+                    <div class="lnb_service lnb">
+                        <ul>
+                            <li>공지사항</li>
+                            <li>나의 스코어 관리</li>
+                            <li>회원게시판</li>
+                        </ul>
+                    </div>
+                    <div class="lnb_contact lnb">
+                        <ul>
+                            <li>이용요금</li>
+                            <li>이용에티켓</li>
+                            <li>입장안내</li>
+                            <li>이용약관</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>     
+    </nav>
+    <nav class="mo_nav w100vh scroll-area">    
+        <div class="mo_wrap">
+            <ul class="mo_gnb">
+                <li class="mo_gnb_cont" onclick="tabOpen(0)">KWANGJU CC
+                    <ul class="mo_gnb_wrap">
+                        <li>예약하기</li>
+                        <li>예약하기 및 취소</li>
+                        <li>예약안내 및 예약규정</li>
+                        <li>모바일 예약안내</li>
+                    </ul>
+                </li>
+                <li class="mo_gnb_cont" onclick="tabOpen(1)">RESERVATION
+                    <ul class="mo_gnb_wrap">
+                        <li>예약하기</li>
+                        <li>예약하기 및 취소</li>
+                        <li>예약안내 및 예약규정</li>
+                        <li>모바일 예약안내</li>
+                    </ul>
+                </li>
+                <li class="mo_gnb_cont" onclick="tabOpen(2)">COURSE
+                    <ul class="mo_gnb_wrap">
+                        <li>코스소개</li>
+                        <li>코스공략</li>
+                        <li>코스갤러리</li>
+                    </ul>
+                </li>
+                <li class="mo_gnb_cont" onclick="tabOpen(3)">FACILITY
+                    <ul class="mo_gnb_wrap">
+                        <li>레스토랑</li>
+                        <li>연회장</li>
+                        <li>프로샵</li>
+                        <li>그늘집</li>
+                        <li>락커</li>
+                    </ul>
+                </li>
+                <li class="mo_gnb_cont" onclick="tabOpen(4)">SERVICE
+                    <ul class="mo_gnb_wrap">
+                        <li>공지사항</li>
+                        <li>나의 스코어 관리</li>
+                        <li>회원게시판</li>
+                    </ul>
+                </li>
+                <li class="mo_gnb_cont" onclick="tabOpen(5)">CONTACT
+                    <ul class="mo_gnb_wrap">
+                        <li>이용요금</li>
+                        <li>이용에티켓</li>
+                        <li>입장안내</li>
+                        <li>이용약관</li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="close"></div>
+        </div>   
+    </nav>  
+    <main class="scroll-container">       
+        <section class="section_1 w100 w100vh scroll-area">
+            <div class="w100 w100vh section_1_img">
+            </div>
+            <div data-aos="fade-up" class="position bnr_txt_wrap">
+                <div class="bnr_txt">
+                    <p class="main_bnr_txt">
+                    WELCOME TO<br>
+                    KWANGJU COUNTRY CLUB
+                    </p>
+                    <p class="sub_bnr_txt">최고의 자연에서 최상의 서비스를 제공해 드리는 광주컨트리클럽입니다.</p>
+                </div>
+            </div>
+                <div class="reservation_wrap w100">
+                    <div class="reservation flex">
+                        <div class="date">
+                            <p class="reserv_txt">RESERVATION</p>
+                            <div class="flex date_wrap">
+                                <div class="current_date"></div>
+                                <div class="planner"></div>
+                    </div>
+                 </div>                  
+            <table class="Calendar">
+            <thead>
+                <tr>
+                    <td onClick="prevCalendar();" style="cursor:pointer;">&#60;</td>
+                    <td colspan="5">
+                        <span id="calYear"></span>년
+                        <span id="calMonth"></span>월
+                    </td>
+                    <td onClick="nextCalendar();" style="cursor:pointer;">&#62;</td>
+                </tr>
+                <tr>
+                    <td>일</td>
+                    <td>월</td>
+                    <td>화</td>
+                    <td>수</td>
+                    <td>목</td>
+                    <td>금</td>
+                    <td>토</td>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+                </table>
+                        <div class="member">
+                            <p class="reserv_txt">MEMBER</p>
+                            <select name="" id="" class="selec white_16px">
+                                <option value="">1명</option>
+                                <option value="">2명</option>
+                                <option value="">3명</option>
+                                <option value="">4명</option>
+                                <option value="">5명</option>
+                                <option value="">6명</option>
+                            </select>
+                        </div>
+                        <div class="member">
+                            <p class="reserv_txt">COURSE</p>
+                            <select name="" id="" class="selec2 white_16px">
+                                <option value="">설산</option>
+                                <option value="">동악</option>
+                                <option value="">섬진</option>
+                            </select>
+                        </div>
+                        <div class="search_btn btn">SEARCH</div>
+                    </div>
+        </div>
+        </section>
+        <section class="section_2 w100 w100vh scroll-area">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide slide_1">  
+                    <div data-aos="fade-right">
+                    <div class="course_wrap w1280">
+                        <div class="course_name flex seomjin ">
+                            <p>SEOMJIN</p>
+                            <p>SEOLSAN</p>
+                            <p>DONGAK</p>
+                        </div>
+                        <h2>
+                            SEOMJIN <br>
+                            COURSE
+                        </h2>
+                        <p>섬진강의 편안한 아름다움과 동악산 위엄이 <br>
+                            균형있게 조화된 가운데 라운딩을 즐길 수 있는 <br>
+                            천상의 코스입니다.</p>
+                    </div>
+                    </div>      
+                  </div>
+                  <div class="swiper-slide slide_2">
+                    <div class="course_wrap w1280">
+                        <div class="course_name flex seolsan">
+                            <p>SEOMJIN</p>
+                            <p>SEOLSAN</p>
+                            <p>DONGAK</p>
+                        </div>
+                        <h2>
+                            SEOLSAN <br>
+                            COURSE
+                        </h2>
+                        <p>계절따라 변화하는 수려한 자연과 멋진 조화를<br>
+                            이루어내 그린, 다양한 난이도로 이루어진<br>
+                            절묘한 코스 라이프스타일을 만나보세요.</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slide_3">
+                    <div class="course_wrap w1280">
+                        <div class="course_name flex dongak">
+                            <p>SEOMJIN</p>
+                            <p>SEOLSAN</p>
+                            <p>DONGAK</p>
+                        </div>
+                        <h2>
+                            DONGAK <br>
+                            COURSE
+                        </h2>
+                        <p>생동감이 넘치는 자연의 기운과 원시자연을 <br>
+                        그대로 설계하였으며 동악의 힘이 느껴지는 코스</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>       
+        </section>
+        <section class="section_3 w100 w100vh scroll-area">
+                <div class="wrap facility">
+                    <p class="news_txt">KWANGJU COUNTRY CLUB</p>
+                    <p class="news_txt_2">부대시설</p>
+                    <p>쾌적하고 편리하게 이용이 가능하며 <br>
+                        최상의 서비스를 선사하는 부대시설을 만나보세요
+                    </p>
+                </div>
+                <div  data-aos="fade-up">
+                <div class="swiper facilitySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide sec3_slide_1 facility_img">
+                        <p class="facility_txt">레스토랑</p>
+                        </div>                         
+                      <div class="swiper-slide sec3_slide_2 facility_img">
+                        <p class="facility_txt">연회장</p>
+                      </div>
+                      <div class="swiper-slide sec3_slide_3 facility_img">
+                        <p class="facility_txt">프로샵</p>
+                      </div>
+                      <div class="swiper-slide sec3_slide_4 facility_img">
+                        <p class="facility_txt">그늘집</p>
+                      </div>
+                      <div class="swiper-slide sec3_slide_5 facility_img">
+                        <p class="facility_txt">락커</p>
+                      </div>
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </section>
+        <section class="section_4 w100 w100vh flex scroll-area">    
+            <div class="sec_4_img price_1" >
+                <span class="close_btn price_1_btn">&times; </span>
+            </div>
+            <div class="sec_4_img price_2">
+                <span class="close_btn price_2_btn">&times; </span>
+            </div>
+            <div class="sec_4_img manner_1">
+                <span class="close_btn manner_1_btn">&times; </span>
+            </div>
+            <div class="sec_4_img manner_2">
+                <span class="close_btn manner_2_btn">&times; </span>
+            </div>
+            <div class="sec_4_img course_1">
+                <span class="close_btn course_1_btn">&times; </span>
+            </div>
+            <div class="sec_4_img course_2">
+                <span class="close_btn course_2_btn">&times; </span>
+            </div>
+            <div class="sec_4_img guide_1">
+                <span class="close_btn guide_1_btn">&times; </span>
+            </div>
+            <div class="sec_4_img guide_2">
+                <span class="close_btn guide_2_btn">&times; </span>
+            </div>
+            <div class="sec_4 price">
+                <div class="sec_4_Wrap one">
+                    <p class="sec_4_txt font1">이용요금</p>
+                    <p class="white_16px">전체요금 안내</p>
+                    <div class="sec_4_sub">
+                        <div class="flex sub_1 price_sub1">
+                            <p class="white_18px">주말요금</p>
+                            <div class="white_18px" id="pirce_1">+</div>
+                        </div>
+                        <div class="flex sub_2 price_sub2">
+                            <p class="white_18px">평일요금</p>
+                            <div class="white_18px" id="price_2">+</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="background_img_1 back"></div>
+            </div>    
+            <div class="sec_4 manner">
+                <div class="sec_4_Wrap two">
+                    <p class="sec_4_txt font2">이용에티켓</p>
+                    <p class="white_16px">질서와 매너</p>
+                    <div class="sec_4_sub">
+                        <div class="flex sub_1 manner_sub1">
+                            <p class="white_18px">복장규정안내</p>
+                            <div class="white_18px">+</div>
+                        </div>
+                        <div class="flex sub_2 manner_sub2">
+                            <p class="white_18px">클럽이용수칙</p>
+                            <div class="white_18px">+</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="background_img_2 back"></div>
+            </div>           
+            <div class="sec_4 course">
+                <div class="sec_4_Wrap three">
+                    <p class="sec_4_txt font3">입장안내</p>
+                    <p class="white_16px">입장 및 시설안내</p>
+                    <div class="sec_4_sub">
+                        <div class="flex sub_1 course_sub1">
+                            <p class="white_18px">코스운영안내</p>
+                            <div class="white_18px">+</div>
+                        </div>
+                        <div class="flex sub_2 course_sub2">
+                            <p class="white_18px">카트이용안내</p>
+                            <div class="white_18px">+</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="background_img_3 back" ></div>
+            </div>           
+            <div class="sec_4 guide">
+                <div class="sec_4_Wrap four">
+                    <p class="sec_4_txt font4">이용약관</p>
+                    <p class="white_16px">골프장 이용 표준 약관</p>
+                    <div class="sec_4_sub">
+                        <div class="flex sub_1 guide_sub1">
+                            <p class="white_18px">우천취소규정</p>
+                            <div class="white_18px">+</div>
+                        </div>
+                        <div class="flex sub_2 guide_sub2">
+                            <p class="white_18px">예약 및 위약규정</p>
+                            <div class="white_18px">+</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="background_img_4 back" id="rule"></div>
+            </div>
+        </section>
+        <section class="section_5 w100 w100vh scroll-area">
+            <div class="w1280">
+                <div class="news wrap">
+                    <p class="news_txt">NEWS & NOTICE</p>
+                    <p class="news_txt_2">공지사항</p>
+                </div>
+                <div data-aos="fade-up">
+                <div class="flex notice_wrap">
+                    <div class="notice">
+                        <div class="hidden">
+                            <div class="notice_1"></div>
+                        </div>
+                        <p class="black_18px">우천 취소 규정 안내</p>
+                        <p>more ></p>
+                    </div>
+                    <div class="notice">
+                        <div class="hidden">
+                            <div class="notice_2"></div>
+                        </div>
+                        <p class="black_18px">2023년 7월 그린피 안내</p>
+                        <p>more ></p>
+                    </div>
+                    <div class="notice">
+                        <div class="hidden">
+                            <div class="notice_3"v></div>
+                        </div>
+                        <p class="black_18px">채용공고 안내</p>
+                        <p>more ></p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class=""></div>
+        </section>
+        <section class="section_6 w100 w100vh scroll-area">
+            <div class="section_6_wrap">
+                <div class="service_wrap">
+                    <div  data-aos="fade-up">
+                    <p class="service_txt">회원서비스</p>
+                    <div class="btn service_btn white_16px">CLICK</div>
+                    </div>
+                </div>
+                <div class="service_img">
+                </div>
+            </div>
+        </section>
+        <div></div>
+    </main>
+    <footer>
+        <section class="w100">
+            <div class="footer_wrap w1280 flex">
+                <div class="cont">
+                    <div class="info flex">
+                        <p>개인정보 처리방침</p>
+                        <p>영상정보처리 운영방침</p>
+                        <p>골프장 이용약관</p>
+                        <p>인터넷 이용약관</p>
+                        <p>이메일집단 수집거부</p>
+                    </div>
+                    <div class="address white_16px">
+                        <p>
+                        전라남도 곡성군 옥과면 입면로 455 &nbsp; &nbsp;
+                        사업자등록번호:408-81-03379 &nbsp; &nbsp;
+                        법인명:광주관광개발(주) &nbsp; &nbsp;
+                        대표이사:이영 &nbsp; &nbsp;
+                        개인정보 관리 책임자:이영&nbsp; &nbsp;
+                        </p>
+                    </div>
+                    <div class="info">
+                        <p>Copyright © 2016. Kwangju Country Club. All Rights Reserved.</p>
+                    </div>
+                </div>
+                <div class="number white_18px">
+                    <p>대표번호 061-339-7100</p>
+                    <p>예약실 061-339-7191</p>
+                    <p>팩스 061-362-2797</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>AOS.init();</script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/kwangju_main.js"></script>
+</body>
+</html>

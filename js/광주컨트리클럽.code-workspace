@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../실습/도미노 정예원"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "광주컨트리클럽"
+	}
+}
